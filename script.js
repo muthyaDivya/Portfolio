@@ -59,8 +59,8 @@ const downloadCV = document.getElementById('downloadcv');
 console.log(downloadCV);
 downloadCV.addEventListener('click', () =>{
     const newLink = document.createElement('a');
-    newLink.href = 'files/Readme.doc';
-    newLink.download ='Readme.doc';
+    newLink.href = 'files/Divya Muthya CV.doc';
+    newLink.download ='Divya Muthya CV.doc';
     console.log(newLink);
     // click on link automatically
     newLink.click();
