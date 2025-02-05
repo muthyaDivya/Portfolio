@@ -384,8 +384,8 @@ nav ul li::after{
         gap: 10px;
     }
 
-    .mainsection {
-        flex-direction: column;
+    .maincontent {
+        flex-direction: column-reverse;
         text-align: center;
     }
 
@@ -397,7 +397,6 @@ nav ul li::after{
     }
 
     .main-image {
-        order: 1;
         text-align: center;
     }
 
